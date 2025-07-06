@@ -1,4 +1,16 @@
-# Browser Agent Leaderboard
+To build, run 
+
+```bash
+npm run build
+```
+
+To test, run 
+
+```bash
+npm run preview
+```
+
+<!-- # Browser Agent Leaderboard
 
 This repository presents the current standings of various web agents evaluated on the **WebVoyager** benchmark ([paper](https://arxiv.org/abs/2401.13919)). The WebVoyager benchmark comprises 643 tasks across 15 popular websites, assessing agents' abilities to perform diverse web navigation and interaction tasks.
 
@@ -34,4 +46,4 @@ We encourage contributions to keep this leaderboard up-to-date. If you have info
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. -->
