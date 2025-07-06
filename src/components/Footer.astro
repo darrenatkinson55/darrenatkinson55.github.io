@@ -1,0 +1,31 @@
+---
+const currentTime = new Date().toLocaleTimeString("en-US", {
+  hour: "2-digit",
+  minute: "2-digit",
+  second: "2-digit",
+  hour12: false,
+});
+
+const { execSync } = await import("child_process");
+const hash = execSync("git log -1 --pretty=format:%h src/lib/leaderboard.ts").toString().trim();
+---
+
+<footer>
+  <div class="flex justify-between items-center text-xs font-mono text-dim uppercase">
+    <div>Last updated: {currentTime}</div>
+    <div>
+      <a
+        href="https://github.com/MinorJerry/WebVoyager"
+        target="_blank"
+        class="hover:text-accent hover:underline transition-colors">WEBVOYAGER</a
+      >
+    </div>
+    <div>
+      <a
+        href={`https://github.com/steel-dev/leaderboard/blob/main/src/lib/leaderboard.ts`}
+        target="_blank"
+        class="hover:text-accent hover:underline transition-colors">@{hash}</a
+      >
+    </div>
+  </div>
+</footer>
