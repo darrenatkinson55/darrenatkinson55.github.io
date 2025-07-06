@@ -4,12 +4,12 @@
 :root {
   --font-mono: "JetBrains Mono", "Menlo", "Monaco", "Courier New", monospace;
   --color-bg: #000000;
-  --color-text: #00ff00;
-  --color-dim: #00aa00;
-  --color-accent: #00ffff;
-  --color-error: #ff0000;
-  --color-success: #00ff00;
-  --grid-color: rgba(0, 255, 0, 0.05);
+  --color-text: #ff8000; /* Green to Orange */
+  --color-dim: #aa5500; /* Darker Green to Darker Orange */
+  --color-accent: #007fff; /* Cyan to Azure/Blue */
+  --color-error: #ff0000; /* No change */
+  --color-success: #ff8000; /* Green to Orange */
+  --grid-color: rgba(255, 128, 0, 0.05); /* Greenish grid to Orangish grid */
 }
 
 body {
