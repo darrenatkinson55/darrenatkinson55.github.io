@@ -6,7 +6,7 @@
   --color-bg: #000000;
   --color-text: #ff8000; /* Green to Orange */
   --color-dim: #aa5500; /* Darker Green to Darker Orange */
-  --color-accent: #007fff; /* Cyan to Azure/Blue */
+  --color-accent: #ff8000; /* Blue to Orange */
   --color-error: #ff0000; /* No change */
   --color-success: #ff8000; /* Green to Orange */
   --grid-color: rgba(255, 128, 0, 0.05); /* Greenish grid to Orangish grid */

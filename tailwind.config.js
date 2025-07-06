@@ -7,12 +7,12 @@ export default {
         background: "#000000",
         text: "#ff8000", // Updated
         dim: "#aa5500", // Updated
-        accent: "#007fff", // Updated
+        accent: "#ff8000", // Updated from blue to orange
         error: "#ff0000",
         success: "#ff8000", // Updated
         green: "#ff8000", // Updated (effectively orange now)
-        orange: "#ff8000", // Added for clarity if needed, though "green" is now orange
-        blue: "#007fff", // Added for clarity if needed
+        orange: "#ff8000",
+        // blue: "#007fff", // No longer needed as a distinct named color for accents
         gray: {
           DEFAULT: "#aa5500", // Updated
           dark: "#552a00", // Updated
@@ -24,9 +24,9 @@ export default {
         sans: ['"Geist"', "system-ui", "sans-serif"],
       },
       backgroundImage: {
-        "gradient-accent": "linear-gradient(90deg, #007fff, #ff8000)", // Updated
-        "gradient-logo": "linear-gradient(135deg, #007fff, #ff8000, #0055aa)", // Updated
-        "gradient-button": "linear-gradient(83.21deg, #ff8000 0%, #007fff 100%)", // Updated
+        "gradient-accent": "linear-gradient(90deg, #ffaa00, #ff8000)", // Updated (shades of orange)
+        "gradient-logo": "linear-gradient(135deg, #ffaa00, #ff8000, #aa5500)", // Updated (shades of orange)
+        "gradient-button": "linear-gradient(83.21deg, #ff8000 0%, #ffaa00 100%)", // Updated (shades of orange)
         "terminal-grid":
           "linear-gradient(rgba(255, 128, 0, 0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 128, 0, 0.05) 1px, transparent 1px)", // Updated
       },
