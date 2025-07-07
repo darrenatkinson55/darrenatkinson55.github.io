@@ -28,7 +28,7 @@ export default {
         "gradient-logo": "linear-gradient(135deg, #ffaa00, #ff8000, #aa5500)", // Updated (shades of orange)
         "gradient-button": "linear-gradient(83.21deg, #ff8000 0%, #ffaa00 100%)", // Updated (shades of orange)
         "terminal-grid":
-          "linear-gradient(rgba(255, 128, 0, 0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 128, 0, 0.05) 1px, transparent 1px)", // Updated
+          "linear-gradient(rgba(255, 128, 0, 0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 128, 0, 0.1) 1px, transparent 1px)", // Increased visibility
       },
       animation: {
         "terminal-blink": "blink 1s step-end infinite",

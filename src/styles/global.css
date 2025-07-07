@@ -9,7 +9,7 @@
   --color-accent: #ff8000; /* Blue to Orange */
   --color-error: #ff0000; /* No change */
   --color-success: #ff8000; /* Green to Orange */
-  --grid-color: rgba(255, 128, 0, 0.05); /* Greenish grid to Orangish grid */
+  --grid-color: rgba(255, 128, 0, 0.1); /* Increased visibility */
 }
 
 body {
